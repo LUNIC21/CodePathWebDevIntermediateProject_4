@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.explore-button{
+  width: 200px;
+  height: 40px;
+  font-size: 1.25em;
+  background-color: rgb(172, 255, 240);
+  cursor: pointer;
+  border-radius: 15px;
+  font-weight: 800;
+  color: rgb(157, 0, 255);
+}
+
+.explore-button:active{
+  color: rgb(172, 255, 240);
+  background-color: rgb(157, 0, 255);
+}
+
+.traits{
+  padding: 10px 20px 10px 20px;
+  margin: 5px 5px 5px 5px;
+  font-size: 1em;
+  background-color: rgb(118, 193, 255);
+  font-weight: 600;
+  color: rgb(19, 108, 30);
+  cursor: pointer;
+}
+
+.trait-labels{
+  font-size: 1.25em;
+}
+
+.trait-container{
+  margin-top: 20px;
+}
+
+.ban-list {
+  position: fixed;
+  width: 200px;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  overflow-y: auto;
+}
